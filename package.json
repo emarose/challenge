@@ -1,7 +1,6 @@
 {
   "name": "challenge",
   "version": "0.0.1",
-  
   "private": true,
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.15",
@@ -23,7 +22,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
