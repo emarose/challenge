@@ -1,7 +1,7 @@
 {
   "name": "challenge",
   "version": "0.0.1",
-  "homepage": "http://emarose.github.io/challenge",
+  "homepage": "http://emarose.github.io/challenge/",
   "private": true,
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.15",
