@@ -1,7 +1,6 @@
 {
   "name": "challenge",
-  
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.15",
@@ -49,6 +48,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "renamer": "^4.0.0",
+    "replace-in-file": "^6.2.0"
   }
 }

@@ -2,11 +2,13 @@
 
 :root{
 --main-color: rgba(52,86,139);  /* #34568B */
---shadow-color: rgba(52,86,139,0.5);
+--shadow-color: rgba(52,86,139,0.3);
 --main-font:'Open Sans', sans-serif;
 --sub-font:'Lato', sans-serif;
 }
-
+a{
+	
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -28,6 +30,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 html{
 	scroll-behavior: smooth;
 }
@@ -40,7 +43,7 @@ body {
   background-color: #f2f2f2;
 	line-height: 1;
 }
-ol, ul {
+ol, ul, li {
 	list-style: none;
 }
 blockquote, q {

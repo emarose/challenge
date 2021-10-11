@@ -1,0 +1,17 @@
+.descuentosContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 200px;
+  padding: 50px 10px;
+  box-shadow: 0 0 15px 1px var(--shadow-color);
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width:750px) {
+  .descuentosContainer .promocionesRow{
+    transform: translateX(80px);
+  }
+}

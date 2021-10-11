@@ -1,0 +1,41 @@
+.footerWrapper{
+  background-color: var(--main-color);
+
+}
+
+.footerContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  
+  padding: 10px 0;
+}
+
+.footerContainer ul{
+  margin: 0;
+  padding: 0;
+}
+.footerContainer ul li{
+  color:#fff;
+  margin-left: 20;
+}
+
+
+.footerSocial{
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+}
+.footerIcon{
+
+  font-size: 28px;
+  margin: 0 10px;
+}
+.footerIcon:hover{
+  color:#fff;
+  cursor: pointer;
+}
+.footerLogo{
+  width: 100px;
+}

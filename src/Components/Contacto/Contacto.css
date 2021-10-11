@@ -1,0 +1,29 @@
+.contactoTitulo{
+  margin-top: 100px;
+}
+.contactoForm{
+  margin-top: 40px;
+  box-shadow: 0 0 10px 10px var(--shadow-color);
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+}
+.contactoContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 120vh;  
+}
+
+.contactoForm input:hover,textarea:hover{
+  box-shadow: 0 0 1px 4px var(--shadow-color);
+}
+.contactoBtn.btn.btn-info{
+  margin-top: 15px;
+}
+.contactoBtn.btn.btn-info:hover{
+  background-color: var(--main-color);
+  color:#fff;
+}
+

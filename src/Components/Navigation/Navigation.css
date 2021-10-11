@@ -1,0 +1,12 @@
+
+.navbarLogo{
+  width: 160px;
+  height: 160px;
+  transition: 0.2s all;
+}
+
+@media screen and (max-width:700px) {
+  .navbarLogo{
+    transform: scale(0.8);
+  }
+}

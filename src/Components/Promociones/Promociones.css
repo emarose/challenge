@@ -1,0 +1,25 @@
+.promocionesContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 150px;
+  padding: 50px 10px;
+  box-shadow: 0 0 15px 1px var(--shadow-color);
+  border-radius: 10px;
+}
+
+.promocionesContainer h3{
+  margin: 60px auto;
+}
+
+.promocionesContainer a{
+  margin: 50px auto;
+  text-align: center;
+}
+
+@media screen and (max-width:750px) {
+  .promocionesContainer .promocionesRow{
+    transform: translateX(80px);
+  }
+}
