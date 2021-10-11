@@ -1,13 +1,13 @@
 {
   "name": "challenge",
-<<<<<<< HEAD
+
   "version": "0.0.1",
 =======
   "version": "0.1.0",
   "engines": {
     "node": "14.x"
   },
->>>>>>> 23fbbb3cff0b9f3fc4024837df52b874fbbb9e6a
+
   "private": true,
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.15",
